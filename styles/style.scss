@@ -15,9 +15,8 @@
 }
 
 .nav-link:hover{
-    background-color: rgb(245, 142, 142);
     font-style: italic;
-    border-radius: 10px;
+    transform: scale(1.1);
 }
 
 footer{
@@ -47,7 +46,7 @@ h4{
 }
 
 .carousel__texto{
-    color: #302e2e;
+    color: whitesmoke;
     text-shadow: rgb(49, 48, 48) ;
     margin: 2px;
     z-index: 1;
@@ -149,4 +148,49 @@ h4{
 .parrafoContacto{
     font-size:large;
 }
- 
+
+.paginaContacto{
+    height: auto;
+}
+.formularioContacto{
+    max-width: 100%;
+    max-height: auto;
+}
+.mapaContacto{
+    width: 100%;
+    height: auto;
+}
+
+.imagenContacto{
+    max-width: 100%; 
+    height: auto;
+}
+
+/*media queries*/
+
+@media (min-width: 1920px) {
+    .nav-link {
+        font-size: x-large;
+      }
+    iframe {
+      height: 635px;
+    }
+    .textoH1{
+        font-size: 60px;
+    }
+    .textoH2{
+        font-size: 40px;
+    }
+    .textoH3{
+        font-size: 40px;
+    }
+    .textoH5{
+        font-size: 35px;
+    }
+    .textoP{
+        font-size: 30px;
+    }
+    .textoPC{
+        font-size: 20px;
+    }
+ }
